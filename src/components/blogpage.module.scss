@@ -1,0 +1,61 @@
+$blue: #3c6e71;
+
+.container {
+    margin: 0 auto;
+    min-height: 90vh;
+    max-height: 99vh;
+    max-width: 40rem;
+    background-color: #cfe6e7;
+    padding: 2rem 5rem;
+
+    p {
+        line-height: 1.475;
+    }
+
+}
+
+.date {
+    font-style: italic;
+    padding: 0.3em 0 0.3em 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;    
+}
+
+Link {
+    text-decoration: none;
+}
+
+.span {
+    color: black;
+}
+
+.subtitle {
+    color: black;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        margin: 0 auto;
+        min-height: 150vh;
+        max-width: 40rem;
+        background-color: #cfe6e7;
+        padding: 2rem 2rem;
+    
+        p {
+            line-height: 1.475;
+        }
+    
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .links {
+        display: flex;
+        flex-direction: column; 
+    }
+}

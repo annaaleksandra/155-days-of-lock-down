@@ -1,0 +1,19 @@
+$blue: #3c6e71;
+
+* {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Roboto';
+}
+
+body {
+    font-family: 'Lato';
+    background: $blue;
+}
