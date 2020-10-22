@@ -16,7 +16,6 @@ const Header = () => {
             <ul className={headerStyles.nav}>
                 <Link className={headerStyles.item} to="/">Home</Link>
                 <Link className={headerStyles.item} to={url}>Random</Link>
-                <Link className={headerStyles.item}to="/about">About</Link>
             </ul>
         </header>
     )
